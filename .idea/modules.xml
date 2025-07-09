@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/DSA_WITH_JAVA.iml" filepath="$PROJECT_DIR$/.idea/DSA_WITH_JAVA.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaBasics/JavaBasics.iml" filepath="$PROJECT_DIR$/JavaBasics/JavaBasics.iml" />
       <module fileurl="file://$PROJECT_DIR$/Operators in JAVA/Operators in JAVA.iml" filepath="$PROJECT_DIR$/Operators in JAVA/Operators in JAVA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Patterns/Patterns.iml" filepath="$PROJECT_DIR$/Patterns/Patterns.iml" />
       <module fileurl="file://$PROJECT_DIR$/loops/loops.iml" filepath="$PROJECT_DIR$/loops/loops.iml" />
     </modules>
   </component>
