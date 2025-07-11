@@ -15,7 +15,6 @@ public class swapping{
         int b = sc.nextInt();
 
         swapNo(a, b);
-
         System.out.println("After swap " + "a : " + a + " b : " + b);
     }
 }
