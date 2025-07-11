@@ -1,14 +1,15 @@
 import java.util.*;
 
 public class parameter{
-    public static void sum(int a, int b) {
+    public static int calculateSum(int a, int b) {
         int sum = a + b;
-        System.out.println("Sum is : " + sum);
+        return sum;
     }
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
         int b = sc.nextInt();
-        sum(a, b);
+        int sum = calculateSum(a, b);
+        System.out.println("Sum is : " + sum);
     }
 }
