@@ -1,8 +1,8 @@
 import java.util.Scanner;
 
-public class Fibonacci {
+public class Fibonacci{
 
-    public static void printFibonacci(int n) {
+    public static void printFibonacci(int n){
         int a = 0, b = 1;
 
         System.out.print("Fibonacci Series: ");
@@ -14,7 +14,7 @@ public class Fibonacci {
         }
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Enter how many terms of Fibonacci series you want: ");
