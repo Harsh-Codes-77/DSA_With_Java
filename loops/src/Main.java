@@ -1,3 +1,6 @@
+//What is a Java program equivalent to the given C code that reads an integer from input and prints its English word representation for numbers from 1 to 9, or "Greater than 9" otherwise?
+
+
 import java.util.Scanner;
 
 public class Main {
