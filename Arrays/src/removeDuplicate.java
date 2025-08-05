@@ -1,13 +1,11 @@
 // Import the necessary Java utilities package.
 import java.util.Arrays;
 
-// Define a class named Exercise16.
 public class removeDuplicate {
     // Define a method to find and print unique elements in an array.
     static void unique_array(int[] my_array) {
         System.out.println("Original Array : ");
 
-        // Iterate through the original array and print its contents.
         for (int i = 0; i < my_array.length; i++) {
             System.out.print(my_array[i] + "\t");
         }
