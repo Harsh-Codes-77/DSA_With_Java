@@ -10,10 +10,8 @@ public class removeDuplicate {
             System.out.print(my_array[i] + "\t");
         }
 
-        // Assuming all elements in the input array are unique.
         int no_unique_elements = my_array.length;
 
-        // Comparing each element with all other elements to find duplicates.
         for (int i = 0; i < no_unique_elements; i++) {
             for (int j = i + 1; j < no_unique_elements; j++) {
                 // If any two elements are found equal (a duplicate is found).
