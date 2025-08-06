@@ -41,7 +41,7 @@ class BitwiseOperations{
 
 
 
-public class ar {
+public class arithmeticOperations {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
