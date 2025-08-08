@@ -22,7 +22,7 @@
 //
 //Input is always valid (no negative numbers or non-integers).
 
-import java.util.Scanner;
+import java.util.*;
 
 public class sumOfNnaturalNumber {
     public static int digitSum(int n) {
