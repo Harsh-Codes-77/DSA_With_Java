@@ -1,7 +1,6 @@
-package q21945;
 import java.util.Scanner;
 
-public class CalculateArea {
+public class calculateArea {
 
     public double area(double length, double breadth) {
         return length * breadth;
