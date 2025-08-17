@@ -1,4 +1,3 @@
-package q28198;
 import java.util.Scanner;
 abstract class Vehicle {
     // write your code here
@@ -31,7 +30,7 @@ class Motorcycle extends Vehicle {
     }
 }
 
-public class VehicleTest {
+public class modelVehicle {
     public static void main(String[] args) {
         // Taking input for Car
         Scanner scanner = new Scanner(System.in);
