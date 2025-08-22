@@ -29,3 +29,18 @@
 //n == nums.length
 //1 <= n <= 1000
 //        1 <= nums[i] <= 1000
+
+
+class concatinationOfArray {
+    public int[] getConcatination(int[] nums){
+        int[] ans = new int[2 * nums.length]; //incresing the size of an array according to question
+        int idx = 0;
+
+        for(int i = 0; i<2; i++){
+            for(int num : nums){ //using forEach loop
+                ans[idx++] = num;
+            }
+        }
+        return ans;
+    }
+}
