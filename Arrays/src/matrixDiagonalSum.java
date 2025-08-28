@@ -4,6 +4,9 @@ public class matrixDiagonalSum{
     public static int diagonalSum(int matrix[][]){
         int sum = 0;
 
+
+//        Time complexity O(n^2)
+
 //        for(int i = 0; i < matrix.length; i++){
 //            for(int j = 0; j < matrix[0].length; j++){
 //                if(i == j){
@@ -16,6 +19,8 @@ public class matrixDiagonalSum{
 //        }
 
 //        more optimized way----->
+
+//        Time complexity O(n)
 
         for(int i = 0; i < matrix.length; i++){
 //            primary diagonal
