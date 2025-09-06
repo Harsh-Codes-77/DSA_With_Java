@@ -29,3 +29,8 @@
 //
 //        4 <= n <= 10^5
 
+class strictlyPalindromicNumber2396 {
+    public boolean isStrictlyPalindromic(int n) {
+        return false;
+    }
+}
