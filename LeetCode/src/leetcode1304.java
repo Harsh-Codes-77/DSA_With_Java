@@ -20,3 +20,19 @@
 //
 //        1 <= n <= 1000
 
+class leetcode1304{
+    public int[] sumZero(int n){
+        int[] ans = new int[n];
+        int i = 0;
+
+        while(i+1<n){
+            ans[i] = i+1;
+            ans[i+1] = -(i+1);
+            i += 2;
+        }
+        if(n%2 != 0){
+            ans[i] = 0;
+        }
+        return ans;
+    }
+}
