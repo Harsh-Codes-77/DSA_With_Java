@@ -29,4 +29,14 @@
 //
 //        2 <= n <= 104
 
-
+class leetcode1317{
+    public int[] getNoZeroIntegers(int n){
+        for(int i = 0; i <= n-1; i++){
+            int j = n-i;
+            if(!String.valueOf(i).contains("0") && !String.valueOf(j).contains("0")){
+                return new int[]{i, j};
+            }
+        }
+        return new int[0];
+    }
+}
