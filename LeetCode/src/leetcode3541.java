@@ -42,3 +42,21 @@
 //
 //        1 <= s.length <= 100
 //s consists of lowercase English letters only.
+
+class Solution {
+    public int maxFreqSum(String s) {
+        int[] freq = new int[26];
+        int maxVowel = 0;
+        int maxConsonent = 0;
+        for(char c : s.toCharArray()){
+            int i = c - 'a';
+            freq[i]++;
+            if(c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u')
+                maxVowel = Math.max(maxVowel, freq[i]);
+            else{
+                maxConsonent = Math.max(maxConsonent, freq[i]);
+            }
+        }
+        return maxVowel + maxConsonent;
+    }
+}
