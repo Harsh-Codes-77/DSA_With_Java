@@ -30,3 +30,35 @@
 //piles.length <= h <= 10^9
 //        1 <= piles[i] <= 10^9
 
+class leetcode875 {
+    public boolean checkPossible(int mid, int[] arr, int h){
+        long hours = 0;
+        int n = arr.length;
+        for(int i = 0; i < n; i++){
+            hours += (arr[i] + mid - 1) / mid;
+        }
+        if(hours > h) return false;
+        return true;
+    }
+    public int minEatingSpeed(int[] piles, int h) {
+        int n = piles.length;
+        int low = 1;
+        int high = Integer.MIN_VALUE;
+
+        for(int i = 0; i < n; i++){
+            high = Math.max(high, piles[i]);
+        }
+        int ans = high;
+        while(low <= high){
+            int mid = low + (high - low)/2;
+            if(checkPossible(mid, piles, h)){
+                ans = mid;
+                high = mid - 1;
+            }
+            else{
+                low = mid + 1;
+            }
+        }
+        return ans;
+    }
+}
