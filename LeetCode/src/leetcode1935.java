@@ -30,3 +30,21 @@
 //text consists of words separated by a single space without any leading or trailing spaces.
 //Each word only consists of lowercase English letters.
 //brokenLetters consists of distinct lowercase English letters.
+
+class leetcode1935 {
+    public int canBeTypedWords(String text, String brokenLetters) {
+        String[] words = text.split(" ");
+        int count = 0;
+        for(String word : words){
+            boolean canType = true;
+            for(char c : brokenLetters.toCharArray()){
+                if(word.indexOf(c) != -1){
+                    canType = false;
+                    break;
+                }
+            }
+            if(canType) count ++;
+        }
+        return count;
+    }
+}
