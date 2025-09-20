@@ -36,6 +36,8 @@
 //
 //        1 <= n <= 16
 
+import java.util.*;
+
 class leetcode89 {
     public List<Integer> grayCode(int n) {
         int size = 1 << n;
