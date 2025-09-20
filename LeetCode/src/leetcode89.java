@@ -36,7 +36,7 @@
 //
 //        1 <= n <= 16
 
-class Solution {
+class leetcode89 {
     public List<Integer> grayCode(int n) {
         int size = 1 << n;
         List<Integer> result = new ArrayList<>();
