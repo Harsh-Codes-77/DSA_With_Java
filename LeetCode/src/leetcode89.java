@@ -8,9 +8,7 @@
 //The binary representation of every pair of adjacent integers differs by exactly one bit, and
 //The binary representation of the first and last integers differs by exactly one bit.
 //Given an integer n, return any valid n-bit gray code sequence.
-//
-//
-//
+
 //Example 1:
 //
 //Input: n = 2
@@ -30,8 +28,7 @@
 //
 //Input: n = 1
 //Output: [0,1]
-//
-//
+
 //Constraints:
 //
 //        1 <= n <= 16
