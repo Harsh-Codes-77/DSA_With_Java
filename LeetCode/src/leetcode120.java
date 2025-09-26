@@ -30,7 +30,9 @@
 //        -10^4 <= triangle[i][j] <= 10^4
 
 import java.util.*;
+
 class leetcode120 {
+
     public int minimumTotal(List<List<Integer>> triangle) {
         for(int i = triangle.size() - 2; i >= 0; i--){
             for(int j = 0; j < triangle.get(i).size(); j++){
