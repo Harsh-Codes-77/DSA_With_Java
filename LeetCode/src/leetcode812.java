@@ -22,7 +22,7 @@
 //        -50 <= xi, yi <= 50
 //All the given points are unique.
 
-class Solution {
+class leetcode812 {
     public double largestTriangleArea(int[][] points) {
         double maxArea = 0;
         int n = points.length;
