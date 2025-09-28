@@ -25,7 +25,7 @@
 //        3 <= nums.length <= 104
 //        1 <= nums[i] <= 106
 
-class Solution {
+class leetcode972 {
     public int largestPerimeter(int[] nums) {
         Arrays.sort(nums);
         for(int i = nums.length-1; i >= 2; i--){
