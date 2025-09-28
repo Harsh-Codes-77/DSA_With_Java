@@ -22,8 +22,8 @@
 //
 //Constraints:
 //
-//        3 <= nums.length <= 104
-//        1 <= nums[i] <= 106
+//        3 <= nums.length <= 10^4
+//        1 <= nums[i] <= 10^6
 
 import  java.util.*;
 class leetcode972 {
