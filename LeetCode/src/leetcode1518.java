@@ -29,7 +29,7 @@
 //        1 <= numBottles <= 100
 //        2 <= numExchange <= 100
 
-class Solution {
+class leetcode1518 {
     public int numWaterBottles(int numBottles, int numExchange) {
         int drinked = 0;
         int empBottles = 0;
